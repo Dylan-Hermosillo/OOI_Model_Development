@@ -24,6 +24,12 @@ Ice floe season in the North Atlantic exists when glaciers/ice features melt and
 
 With the abundance of cloud image stills a model can be developed to parse through the photos. After manually annotating photos derived from notebooks 2-4, the data was uploaded and a CNN model was developed using PyTorch.
 
+## Future Work -- Annotations & Better Training/Testing Set
+
+Some considerations for future work; the model has a decent loss score after enough epoch training runs. A larger test set could help tease out the differences between cloud density (if needed -- this could be a binary cloud vs no cloud model). Additional considerations can include feature detection (ship vs bird).
+
+Additionally, the model can be applied on non-cloud images to sort out stills that aren't useful to the project scope (in-harbour shots, night time photos or image stills taken with sea-spray on the lens).
+
 ## Useful Links / resources
 
 [DinoV2 -- Explanation/Demo](https://dinov2.metademolab.com/)
